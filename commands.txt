@@ -1,0 +1,15 @@
+              ##########   LIST OF USEFUL COMMANDLINE   ##########
+
+
+du -sh FOLDER   	# -s: sum, -h: human-readable: show total size of what containing inside folder
+
+df -h   		# show total free disk
+
+hdfs dfsadmin -report	# report status of all datanode
+
+find DIR_NAME -type f | wc -l  	  # recursively counting number of file
+
+find DIR_NAME -name NAME | wc -l  # recursively counting number of file with name
+
+ssh -p 10022 haupv@157.7.146.124 -L 8080:10.121.31.81:8080    # forward port 8080 of 10.121.31.81 via 157.7.146.124 to local host
+

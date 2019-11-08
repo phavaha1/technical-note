@@ -1,0 +1,9 @@
+                         ###############   Numpy   ############
+Array Creation Function:                                                   
+
+np.array(shape):    	np.array([1,2])   np.array([[1,2],[3,4]])   	
+np.empty(shape):    	np.empty([2,2])   np.empty((2,2))			empty_like(other_np_array)
+np.arange:   same as Python range   np.arange(2) -> array([0,1])
+np.zeros(shape):    	np.shape([1,2])                              	zeros_like(other_np_array)
+np.ones(shape):     	np.ones([1,2])					ones_like(other_np_array)
+np.full(shape, value)   np.full([2,2],10)				full_like(other_np_array, value)
