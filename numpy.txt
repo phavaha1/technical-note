@@ -7,3 +7,5 @@ np.arange:   same as Python range   np.arange(2) -> array([0,1])
 np.zeros(shape):    	np.shape([1,2])                              	zeros_like(other_np_array)
 np.ones(shape):     	np.ones([1,2])					ones_like(other_np_array)
 np.full(shape, value)   np.full([2,2],10)				full_like(other_np_array, value)
+
+np.random.randn(d1,d2,d3,...)   np.random.randn(2,3)
