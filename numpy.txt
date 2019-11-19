@@ -1,4 +1,5 @@
                          ###############   Numpy   ############
+**************************
 Array Creation Function:                                                   
 
 np.array(shape):    	np.array([1,2])   np.array([[1,2],[3,4]])   	
@@ -9,3 +10,13 @@ np.ones(shape):     	np.ones([1,2])					ones_like(other_np_array)
 np.full(shape, value)   np.full([2,2],10)				full_like(other_np_array, value)
 
 np.random.randn(d1,d2,d3,...)   np.random.randn(2,3)
+
+
+***************************
+Indexing and selecting
+
+three type of multi-axis indexing
+df[], df.loc[], df.iloc[]
+.loc:   label based, boolean array
+.iloc:  integer position based
+
